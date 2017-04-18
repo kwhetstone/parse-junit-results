@@ -30,8 +30,7 @@ th.version {
     <body>
         <!--<script src="js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-        <h1>Test Summary for Latest Release</h1>
-        <p>which will be filled in in a few runs</p>
+        <h1>Test Summary for Fingerprint</h1>
         <h3>Success Rate</h3>
         <p><xsl:value-of select="/com.cloudbees.jenkins.plugins.testreportgenerator.ReleaseTestResults/percentPassed"/>%</p>
         <table class="table">
